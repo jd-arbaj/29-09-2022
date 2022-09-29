@@ -13,7 +13,7 @@ import java.util.Arrays;
 	    			
 	      int min = minToFront(list);//call minToFront method
 	    			
-	      list.remove(new Integer(2));//remove 2
+	      list.remove(new Integer(min));//remove 2
 	    			
 	      list.add(0,min);//add min number at first position
 	    			
